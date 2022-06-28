@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+  }
+  
+  .menu{
+	   width: 100vw;
+	   background-color: gray;
+	   display: flex;
+	   flex-direction: row;
+	   justify-content: center;
+	   align-items: center;
+  }
+  
+  .menu ul {
+	   list-style: none;
+	   margin-top: 2%;
+  }
+  
+  .menu ul li{
+  background-color: #BDBDBD;
+  color: fff;
+  width: 170px;
+  border: 1px solid #000;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+  position: relative;
+  font-weight: bold;
+  visibility: visible;
+  }
+  
+  .menu ul li textarea{
+	  color: white;
+  }
+  
+  .menu ul li:hover{
+	  background: crimson;
+  }
+  
+  .menu ul ul{
+	  display: none;
+	  margin: 0px;
+  }
+  
+  .menu ul li:hover>ul{
+	  display:block
+  }
+  
+  .menu ul ul ul{
+		margin-left: 170px;
+		top: 0px;
+		position: absolute;
+  }
+  
+  h4{
+	 margin-top: 2%;
+	 margin-left: 11%;
+	 font-size: 25px;
+	 color: white;
+  
+  }
+  
+  a {
+	  color: black;
+	  text-decoration: none;
+  }
+  
+  img {
+	  margin-left: 0;
+	  margin-top: 2%;
+	  align-items: right;
+  }
+  
+  
+	  
+  h5{
+	  font-size: 30px;
+	  color: crimson;
+	  margin: top;
+  }
+  
+  body{
+	  background-image: url("Imagens/valorant-4.png");
+	  background-attachment:fixed;
+	  background-size:100%;
+	  background-repeat:no-repeat;
+  }
+  
+  h3{
+	  color: black;
+	  text-align: justify;
+	  font-weight: bold;
+  
+  }
+  
+  .imagem {
+	  float: left;
+	  margin-left: 5%;
+	  padding: 10px;
+  }
+  .texto{
+	  float: center;
+	  margin-top: 10%;
+	  padding: 10px;
+	  text-align: justify;
+	  font-weight: bold;
+  }
