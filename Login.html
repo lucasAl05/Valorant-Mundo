@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	  
+	<link rel="shortcut icon" href="img/icon.png"> 
+	<title>Login | Sporty More</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+	<style type="text/css">
+	    body{
+		     font-family: Arial, Helvetica, sans-serif;
+			 background-image: url("Imagens/valorant-2.jpg");
+			 background-attachment:fixed;
+		     background-size:100%;
+		     background-repeat:no-repeat;
+		     background-color:#171a21
+		}
+		.tela-login h1{
+		    font-size: 30px;
+			margin: 0 0 32px 0;
+		}
+		.tela-login{
+		    background-color: rgba(0,0,0,0.9);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			padding: 65px;
+			border-radius: 20px;
+			color: white;
+			box-shadow: 2px 2px 10px black;
+		}
+		input{
+		    padding: 5px;
+			border: none;
+			outline: none;
+			font-size: 15px;
+			width: 250px;
+		}
+		button{
+		    background-color: red;
+			border: none ;
+			padding: 15px;
+			width: 100%;
+			border-radius: 10px;
+			color: white;
+			cursor: pointer;
+		}
+		button:hover{
+		   background-color: deepskyblue;
+		}
+		a{
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+
+    <div class="tela-login">
+	     <h1><center>Mundo Valorant</center></h1>
+		 <input type="text" placeholder="Usuario" id="username">
+		 <br><br>
+		 <input type="password" placeholder="Senha" id=password">
+		 <br><br>
+		 <button onclick="checar()">Entrar <i class="fas fa-sign-int-alt"></i></button>
+	     <br><br>
+		Ainda não tem cadastro? <a href="cadastro.html">Clique aqui</a>
+		<br>
+		Se deseja voltar ao site <a href="index.html">Clique aqui</a>
+	</div>
+	
+	<script src="script/script.js"></script>
+
+	
+<!--Rodapé-->
+</body>
+</html>
+		 
+		
